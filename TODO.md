@@ -1,0 +1,12 @@
+# Content checklist
+- [ ] Confirm one-liner and track priority.
+- [ ] Replace three placeholders in lib/content.ts with real projects and technology tags.
+- [ ] Add optimized screenshots, repository links and working demo/dashboard/notebook evidence.
+- [ ] Complete case studies: problem, solo role, decisions, results.
+- [ ] Confirm 8–15 interview-ready skills across the categories.
+- [ ] Add portrait and extended biography.
+- [ ] Add email, GitHub and LinkedIn.
+- [ ] Add public/resume.pdf and enable the resume download in app/page.tsx.
+- [ ] Add build-time GitHub enrichment with local fallback once repositories are known.
+- [ ] Add project listing and case-study routes in a future phase.
+- [ ] Agree on phase exit criteria, which are absent from the brief.
