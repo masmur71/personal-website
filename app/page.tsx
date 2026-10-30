@@ -7,7 +7,7 @@ export default function Home() {
       <a className="skip" href="#main">Skip to content</a>
       <header>
         <a className="brand" href="#" aria-label="Masmur home">
-          <img src="/logo.png" alt="" width="30" height="30" /> MTH <small>PORTFOLIO / V.01</small>
+          <img src="/logo.png" alt="" width="30" height="30" /> MTH 
         </a>
         <nav aria-label="Main navigation">
           <a href="#projects">Projects</a>
@@ -19,7 +19,7 @@ export default function Home() {
       <main id="main">
         <section className="hero">
           <h1>Masmur Toloni<br/>Harefa<span className="cursor" aria-hidden="true" /></h1>
-          <p className="intro">Information Systems graduate building web applications and data analysis projects.</p>
+          <p className="intro">Information Systems graduate building softwares and data analysis projects.</p>
           <div className="actions">
             <a className="button primary" href="#projects">View projects</a>
             <button className="button" disabled aria-describedby="resume-status">Download resume</button>
@@ -32,7 +32,7 @@ export default function Home() {
         <section id="projects">
           <div className="heading">
             <h2>Projects, with context.</h2>
-            <p className="muted">Selected work in software engineering<br/>and data analytics.</p>
+            
           </div>
           <div className="projects">
             {projects.map((p) => (
@@ -54,18 +54,19 @@ export default function Home() {
             <h2>At the intersection of<br/>systems and questions.</h2>
           </div>
           <div>
-            <p>I’m Masmur, an Information Systems fresh graduate exploring entry-level opportunities in software engineering and data analytics.</p>
+            <p>I’m Masmur, an Information Systems fresh graduate exploring opportunities in software engineering and data analytics.</p>
             <p className="muted">My projects explore practical problems through software, data, and careful investigation.</p>
-            <p className="note placeholder">PORTRAIT &amp; EXTENDED BIO / TO BE ADDED</p>
+            
           </div>
         </section>
         <section id="contact">
-          <h2 className="contact-title">Let’s build what’s next<span>.</span></h2>
-          <p className="muted">Open to entry-level software engineering and data analytics roles.</p>
+          
+          <h3 className="contact-title">Get in <span>touch</span></h3>
+          <p className="contact-intro">I’d love to hear from you. I’m open to software engineering and data analytics roles, and conversations about interesting projects.</p>
           <div className="contacts">
-            <a href="mailto:masmurharefa03@gmail.com">Email<small>masmurharefa03@gmail.com</small></a>
-            <a href="https://github.com/masmur71" target="_blank" rel="noreferrer">GitHub<small>github.com/masmur71</small></a>
-            <a href="https://linkedin.com/in/masmurharefa" target="_blank" rel="noreferrer">LinkedIn<small>linkedin.com/in/masmurharefa</small></a>
+            <a className="contact-primary" href="mailto:masmurharefa03@gmail.com"><span>Email<small>masmurharefa03@gmail.com</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/masmur71" target="_blank" rel="noreferrer"><span>GitHub<small>github.com/masmur71</small></span><span aria-hidden="true">↗</span></a>
+            <a href="https://linkedin.com/in/masmurharefa" target="_blank" rel="noreferrer"><span>LinkedIn<small>linkedin.com/in/masmurharefa</small></span><span aria-hidden="true">↗</span></a>
           </div>
         </section>
       </main>
